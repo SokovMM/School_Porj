@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second2">
+
+    <TextView
+        android:id="@+id/NameSchool"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Школа №518"
+        android:textColor="@color/black"
+        android:textSize="40dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/getNameFrom4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@id/getClassfromAct4"
+        android:text="Bvz"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/getClassfromAct4"
+
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="10A"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/GetReason4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getClassfromAct4"
+        android:layout_centerHorizontal="true"
+        android:text="Прична"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+
+
+        />
+    <ImageView
+        android:id="@+id/imageViewSchool"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignRight="@id/NameSchool"
+        app:srcCompat="@drawable/gerb_school" />
+
+    <Button
+        android:id="@+id/PostButt4"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_below="@+id/getClassfromAct4"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:text="Все верно. Отправить."
+        android:layout_width="250dp"
+        android:layout_height="100dp">
+
+    </Button>
+    <Button
+        android:id="@+id/GetBackToMain"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_below="@+id/PostButt4"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:text="Есть ошибка. Начать заново"
+        android:layout_width="250dp"
+        android:layout_height="100dp">
+
+    </Button>
+
+</RelativeLayout>
