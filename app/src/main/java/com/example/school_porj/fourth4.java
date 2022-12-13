@@ -2,7 +2,9 @@ package com.example.school_porj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class fourth4 extends AppCompatActivity {
@@ -32,5 +34,7 @@ public class fourth4 extends AppCompatActivity {
         getName.setText(nameStudent);
         getPrichin.setText(namePrichin);
 
+
     }
+
 }

@@ -40,5 +40,4 @@
         android:layout_alignRight="@id/NameSchool"
         app:srcCompat="@drawable/gerb_school" />
 
-
 </RelativeLayout>
